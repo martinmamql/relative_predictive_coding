@@ -1,5 +1,5 @@
-# relative_predictive_coding
-Project page for paper Self-supervised Representation Learning with Relative Predictive Coding.  
+# Relative Predictive Coding
+Project page for paper [Self-supervised Representation Learning with Relative Predictive Coding](https://arxiv.org/abs/2103.11275).  
 
 The codebase consists of the following parts: 
 
