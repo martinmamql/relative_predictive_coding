@@ -3,12 +3,12 @@ Project page for paper [Self-supervised Representation Learning with Relative Pr
 
 The codebase consists of the following parts: 
 
-##Vision Task
+## Vision Task
 
 Contrastive Self-Supervised Learning on visual tasks.  
 See `vision` folder for more details.  
 
-##Gaussian Task
+## Gaussian Task
 
 Mutual Information Estimation on two Gaussians with varied correlation.  
 See `gaussian/Gaussian.ipynb` for more details.  
