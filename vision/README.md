@@ -4,7 +4,7 @@ This is a codebase for the vision experiments.
 
 ## Enviroment setup
 
-For CIFAR-10/CIFAR-100 experiments, our code can also run on a *single* GPU. It does not support multi-GPUs, for reasons such as global BatchNorm and contrastive loss across cores.
+For CIFAR-10/CIFAR-100 experiments, our code can run on a *single* GPU. It does not support multi-GPUs, for reasons such as global BatchNorm and contrastive loss across cores.
 
 Our models are also trained with TPUs. It is recommended to run distributed training with TPUs when using our code for pretraining on ImageNet.
 
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 conda install cudatoolkit cudnn
 ```
 
-## Pretraining
+## Pretraining and Fine-Tuning
 
 First create a checkpoint directory:
 
@@ -24,7 +24,7 @@ First create a checkpoint directory:
 mkdir checkpoint
 ```
 
-To pretrain the model on CIFAR-10 with a *single* GPU, try the following command:
+To pretrain and finetune the model on CIFAR-10 with a *single* GPU, try the following command:
 
 ```
 bash gpu_pretrain_finetune_cifar.sh
