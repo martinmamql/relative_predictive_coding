@@ -2,7 +2,7 @@
 # hyperparameters
 STORAGE_BUCKET="checkpoint"
 BATCH_SIZE=512
-EPOCH=10
+EPOCH=100
 TEMP=128
 LR=1.0
 LR_SCALE='linear'
