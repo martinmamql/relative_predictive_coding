@@ -1,6 +1,6 @@
 #!/bin/bash
-TPU_NAME=simclr-32
-STORAGE_BUCKET=gs://martin_ma_mql_simclr
+TPU_NAME= # enter your tpu name here
+STORAGE_BUCKET= # enter your storage bucket here
 DATA_DIR=$STORAGE_BUCKET/tensorflow_datasets
 
 # hyperparameters
